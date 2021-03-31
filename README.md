@@ -2,15 +2,20 @@
 #### By three really cool people
 
 ## Specs
-### Describe: any/all functions (outlining!)
 
+### Passing
+#### Describe: pigLatin(text)
+
+<!-- UI Logic: 
 Test: It receives a text string from a user.
-Code:
-Expected Output:
+Code: 
+Expected Output:  -->
 
 Test:  It splits the input text into an array of words.
-Code:
-Expected Output:
+Code: pigLatin("hello goodbye hat, chair, and sun!");
+Expected Output: ["hello", "goodbye", "hat,", "chair,", "and", "sun!"]
+
+### Not yet passing
 
 Test: It ignores non-alphabetical characters since they can't be vowels or consonants.
 Code:
